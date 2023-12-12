@@ -10,7 +10,7 @@ if (NOT CMAKE_BUILD_TYPE)
     message("Setting default build type to Release")
 endif()
 
-project(proj_name VERSION 0.0.1 LANGUAGES C CXX)
+project(my_project_name VERSION 0.0.1 LANGUAGES C CXX)
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
